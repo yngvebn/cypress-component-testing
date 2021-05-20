@@ -12,8 +12,7 @@
     "build-storybook": "npm run docs:json && build-storybook",
     "cypress": "cypress open-ct",
     "cypress:open": "cypress open",
-    "cypress:dash": "cypress run-ct --record --key d0e94ae6-0e7e-4dfb-8e92-c516213cff5a",
-    "postinstall": "ngcc"
+    "cypress:dash": "cypress run-ct --record --key d0e94ae6-0e7e-4dfb-8e92-c516213cff5a"
   },
   "private": true,
   "dependencies": {
