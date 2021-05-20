@@ -38,10 +38,8 @@ jobs:
       - name: Cypress run-ct
         uses: cypress-io/github-action@v2
         with:
-          config-file: cypress.json
-          record: true
-          parallel: true
-          group: 'Actions example'
+          install: false
+          command: npm run cypress:dash
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
