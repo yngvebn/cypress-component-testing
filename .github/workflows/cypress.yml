@@ -38,6 +38,7 @@ jobs:
       - name: Cypress run-ct
         uses: cypress-io/github-action@v2
         with:
+          config-file: cypress.json
           record: true
           parallel: true
           group: 'Actions example'
